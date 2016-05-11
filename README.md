@@ -21,17 +21,17 @@ Pythonをベースにデータサイエンスに関することをjupyter notebo
 ```
 $ python3.5 -m venv venv
 $ source venv/bin/activate
-$ pip install -r requirements/general.txt -c constraints.txt
+$ pip install -r requirements.txt -c constraints.txt
 ```
 
 #### Setup with Docker
 
 Dockerが使える場合は、簡単に環境を用意することができます。
-jupyter notebookは公式でdocker imageを公開しているので、そちらを利用してみましょう。
+jupyter notebookは[公式でdocker imageを公開](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook) しているので、そちらを利用しましょう。
 
 ```
-docker pull jupyter/datascience-notebook
-docker run -d --name notebook -p 8888:8888 jupyter/datascience-notebook
+$ docker pull jupyter/datascience-notebook
+$ docker run -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work jupyter/datascience-notebook
 ```
 
 ## Contents
