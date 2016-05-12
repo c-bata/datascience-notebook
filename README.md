@@ -45,7 +45,7 @@ $ docker run -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work jupyter/datascienc
 #### 統計(Statistics)と機械学習(Machine Learning)
 
 - 機械学習を勉強していく前に
-- 回帰分析
+- [回帰分析](./decision-tree.ipynb)
 - 決定木
 - クラスタリング
 - パターン認識
