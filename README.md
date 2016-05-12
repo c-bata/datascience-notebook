@@ -36,6 +36,7 @@ $ docker run -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work c-bata/datascience
 
 #### データ加工(Data Wrangling)・可視化
 
+- [学習を始める上での基礎知識](./notebooks/getting-started.ipynb)
 - Pandasの基礎
 - Scikit-learnの基礎
 - 異常値・外れ値・欠損値
@@ -59,6 +60,6 @@ notebookの「View」>「Cell Toolbar」>「SlideShow」からスライドショ
 ここに追加しているnotebooksはスライドショーの表示にも対応しているため、下記のコマンドによってスライド形式で表示することが可能です。
 
 ```
-$ ipython nbconvert --to slides notebooks/decision-tree.ipynb --post serve
+$ ipython nbconvert --to slides notebooks/getting-started.ipynb --post serve
 ```
 
