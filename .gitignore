@@ -1,5 +1,6 @@
 .ipynb_checkpoints/
 venv/
 notebooks/*.dot
+notebooks/*.html
 __pycache__/
 

@@ -21,15 +21,14 @@ $ pip install -r requirements.txt -c constraints.txt
 
 #### Setup with Docker (Recommended)
 
-Dockerが使える場合は、簡単に環境を用意することができます。
+Dockerを使って簡単に環境を用意することができます。
 jupyter notebookは[公式でdocker imageを公開](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook)してくれていますが、
-ここにあるNotebooksではいくつかその中に含まれていないパッケージ等を使用しているため、このRepositoryのDockerfileを使用してください。
+ここにあるNotebooksでは一部その中に含まれていないパッケージ等を使用しているため、このRepositoryのDockerfileを使用してください。
 
 ```
 $ docker build -t c-bata/datascience .
 $ docker run -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work c-bata/datascience
 ```
-
 
 ## Contents
 
@@ -52,4 +51,14 @@ $ docker run -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work c-bata/datascience
 - パラメータ推定
 - アンサンブル学習
 - 分類器
+
+
+## SlideShow
+
+notebookの「View」>「Cell Toolbar」>「SlideShow」からスライドショーにした時の表示方法を編集できます。
+ここに追加しているnotebooksはスライドショーの表示にも対応しているため、下記のコマンドによってスライド形式で表示することが可能です。
+
+```
+$ ipython nbconvert --to slides notebooks/decision-tree.ipynb --post serve
+```
 
