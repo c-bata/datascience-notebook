@@ -1,6 +1,5 @@
 .ipynb_checkpoints/
 venv/
-notebooks/*.png
 notebooks/*.dot
 __pycache__/
 
