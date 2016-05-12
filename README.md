@@ -1,6 +1,6 @@
 # Data Science
 
-Pythonをベースにデータサイエンスに関することをjupyter notebookでまとめていきます。
+データサイエンスに関する内容をPythonをベースにまとめていきます。
 
 ## Setup
 
@@ -45,6 +45,8 @@ $ docker run -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work c-bata/datascience
 
 ## Contents
 
+追加予定のコンテンツ一覧です。
+
 #### データ加工(Data Wrangling)・可視化
 
 - Pandasの基礎
@@ -55,7 +57,7 @@ $ docker run -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work c-bata/datascience
 
 - 機械学習の基礎知識
 - 回帰分析
-- 決定木(Decision Tree)
+- 決定木
 - クラスタリング
 - パターン認識
 - パラメータ推定
