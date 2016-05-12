@@ -26,8 +26,8 @@ jupyter notebookは[公式でdocker imageを公開](https://github.com/jupyter/d
 ここにあるNotebooksではいくつかその中に含まれていないパッケージ等を使用しているため、このRepositoryのDockerfileを使用してください。
 
 ```
-$ docker pull jupyter/datascience-notebook
-$ docker run -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work jupyter/datascience-notebook
+$ docker build -t c-bata/datascience .
+$ docker run -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work c-bata/datascience
 ```
 
 
