@@ -45,8 +45,8 @@ $ docker run -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work c-bata/datascience
 #### 統計(Statistics)と機械学習(Machine Learning)
 
 - 機械学習を勉強していく前に
-- [回帰分析](./notebooks/decision-tree.ipynb)
-- 決定木
+- 回帰分析
+- [決定木](./notebooks/decision-tree.ipynb)
 - クラスタリング
 - パターン認識
 - パラメータ推定
