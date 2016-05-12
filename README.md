@@ -24,6 +24,7 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt -c constraints.txt
 ```
 
+
 #### Setup with Docker
 
 Dockerが使える場合は、簡単に環境を用意することができます。
@@ -33,6 +34,14 @@ jupyter notebookは[公式でdocker imageを公開](https://github.com/jupyter/d
 $ docker pull jupyter/datascience-notebook
 $ docker run -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work jupyter/datascience-notebook
 ```
+
+pandas-validatorやoutlier-utilsを使いたい場合は、このRepositoryにおいてあるDockerfileを使ってください。
+
+```
+$ docker build -t c-bata/datascience .
+$ docker run -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work c-bata/datascience
+```
+
 
 ## Contents
 
@@ -44,6 +53,7 @@ $ docker run -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work jupyter/datascienc
 
 #### 統計(Statistics)と機械学習(Machine Learning)
 
+- 機械学習の基礎知識
 - 回帰分析
 - 決定木(Decision Tree)
 - クラスタリング
