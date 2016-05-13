@@ -37,10 +37,8 @@ $ docker run -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work c-bata/datascience
 #### データ加工(Data Wrangling)・可視化
 
 - [学習を始める上での基礎知識](./notebooks/getting-started.ipynb)
-- Pandasの基礎
-- Scikit-learnの基礎
 - 異常値・外れ値・欠損値
-- 可視化(matplotlib, seaborn)
+- Seabornを使った可視化
 
 #### 統計(Statistics)と機械学習(Machine Learning)
 
