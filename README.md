@@ -1,6 +1,7 @@
 # Data Science
 
 データサイエンスに関する内容をPythonをベースにまとめていきます。
+もし間違いやTypoがあればIssue/PRお待ちしております。
 
 ## Setup
 
