@@ -10,16 +10,17 @@
 #### データ加工(Data Wrangling)・可視化
 
 - [JupyterNotebook / numpy / pandas / matplotlib 入門](./notebooks/getting-started.ipynb)
-- Seabornを使った可視化
+- [WIP: Pandasによるデータ加工](./notebooks/pandas-data-wrangling.ipynb)
+- [WIP: Seabornを使った可視化](plotting-in-seaborn.ipynb)
 - 異常値・外れ値・欠損値
-- 次元削減(主成分分析)
+- 次元削減(PCA, LDA)
 
 #### 統計(Statistics)と機械学習(Machine Learning)
 
 - 機械学習を勉強していく前に
 - 回帰分析
 - [決定木](./notebooks/decision-tree.ipynb)
-- クラスタリング
+- [WIP: クラスタリング](./notebooks/clustering.ipynb)
 - トピックモデル
 - パターン認識
 - パラメータ推定
