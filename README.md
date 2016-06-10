@@ -18,11 +18,11 @@
 #### 統計(Statistics)と機械学習(Machine Learning)
 
 - 機械学習を勉強していく前に
-- 回帰分析
+- [WIP: 回帰分析](./notebooks/regression-analysis.ipynb)
 - [決定木](./notebooks/decision-tree.ipynb)
 - [WIP: クラスタリング](./notebooks/clustering.ipynb)
-- トピックモデル
-- パターン認識
+    - GMMについても書く
+- [パターン認識(SVM)](./notebooks/support-vector-machine.ipynb)
 - パラメータ推定
 - アンサンブル学習
 - 分類器
