@@ -23,7 +23,7 @@
 - [WIP: クラスタリング](./notebooks/clustering.ipynb)
     - GMMについても書く
 - [パターン認識(SVM)](./notebooks/support-vector-machine.ipynb)
-- パラメータ推定
+- [パラメータ推定](./notebooks/parameter-estimation.ipynb)
 - アンサンブル学習
 - 分類器
 
