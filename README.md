@@ -46,6 +46,24 @@ $ ipython nbconvert --to slides notebooks/getting-started.ipynb --post serve
 
 ## Setup
 
+#### Setup with Docker (Recommended)
+
+Dockerを使って簡単に環境を用意することができます。
+jupyter notebookは[公式でdocker imageを公開](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook)してくれていますが、
+ここにあるNotebooksでは一部その中に含まれていないパッケージ等を使用しているため、このRepositoryのDockerfileを使用してください。
+
+```console
+$ docker-compose build
+$ docker-compose up -d
+```
+
+docker-composeがない方は直接dockerのコマンドを叩いてください。
+
+```console
+$ docker build -t c-bata/datascience .
+$ docker run -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work c-bata/datascience
+```
+
 #### Requirements
 
 下記の環境を用意してください。
@@ -58,17 +76,6 @@ $ ipython nbconvert --to slides notebooks/getting-started.ipynb --post serve
 - Scikit-learn
 
 ```
-$ pip install -r requirements.txt -c constraints.txt
-```
-
-#### Setup with Docker (Recommended)
-
-Dockerを使って簡単に環境を用意することができます。
-jupyter notebookは[公式でdocker imageを公開](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook)してくれていますが、
-ここにあるNotebooksでは一部その中に含まれていないパッケージ等を使用しているため、このRepositoryのDockerfileを使用してください。
-
-```
-$ docker build -t c-bata/datascience .
-$ docker run -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work c-bata/datascience
+$ pip install -c constraints.txt -r requirements.txt
 ```
 
