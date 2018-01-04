@@ -2,5 +2,6 @@
 venv/
 notebooks/*.dot
 notebooks/*.html
+notebooks/data/
 __pycache__/
 

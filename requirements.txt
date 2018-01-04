@@ -5,6 +5,7 @@ jupyter
 matplotlib
 seaborn
 scikit-learn
+git+https://github.com/matplotlib/mpl_finance
 
 outlier-utils
 pandas-validator

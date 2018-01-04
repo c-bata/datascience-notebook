@@ -15,6 +15,10 @@
 - 異常値・外れ値・欠損値
 - 次元削減(PCA, LDA)
 
+**特殊なデータの可視化**
+
+- [金融データの可視化](./notebooks/plot-finance-data.ipynb)
+
 #### 統計(Statistics)と機械学習(Machine Learning)
 
 - 機械学習を勉強していく前に
