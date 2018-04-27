@@ -32,6 +32,8 @@
 
 #### 応用例
 
+- 映像品質評価に関する調査
+    - [第一回 ディジタル画像の基礎とPSNR](./notebooks/video-quality-metrics-psnr.ipynb)
 - 日本語文書の感情分析(Sentiment Analysis)
 - 日本語文書の分類(bag-of-word)
 - レコメンド
