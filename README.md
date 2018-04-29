@@ -29,6 +29,7 @@
 - [パターン認識(SVM)](./notebooks/support-vector-machine.ipynb)
 - [パラメータ推定](./notebooks/parameter-estimation.ipynb)
 - [分類器](./notebooks/naive-bayes-classifier.ipynb)
+- [時系列データ処理 (ACF, PACF, SARIMAモデル](./notebooks/processing-time-series-data-acf-pacf-sarima.ipynb)
 
 #### 応用例
 
