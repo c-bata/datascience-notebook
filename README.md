@@ -11,7 +11,6 @@
 
 - [JupyterNotebook / numpy / pandas / matplotlib 入門](./notebooks/getting-started.ipynb)
 - [WIP: Pandasによるデータ加工](./notebooks/pandas-data-wrangling.ipynb)
-- [WIP: Seabornを使った可視化](./notebooks/plotting-in-seaborn.ipynb)
 - 異常値・外れ値・欠損値
 - 次元削減(PCA, LDA)
 
