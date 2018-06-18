@@ -4,6 +4,7 @@ pandas
 jupyter
 matplotlib
 scikit-learn
+pillow
 git+https://github.com/matplotlib/mpl_finance
 
 outlier-utils
