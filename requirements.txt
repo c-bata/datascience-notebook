@@ -4,6 +4,8 @@ pandas
 jupyter
 matplotlib
 scikit-learn
+scikit-image
+
 pillow
 git+https://github.com/matplotlib/mpl_finance
 

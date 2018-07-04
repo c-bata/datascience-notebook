@@ -2,7 +2,9 @@ appnope==0.1.0
 bleach==2.0.0
 certifi==2017.7.27.1
 chardet==3.0.4
+cloudpickle==0.5.3
 cycler==0.10.0
+dask==0.18.1
 decorator==4.1.2
 entrypoints==0.2.3
 html5lib==0.999999999
@@ -25,6 +27,7 @@ mistune==0.7.4
 mpl-finance==0.10.0
 nbconvert==5.2.1
 nbformat==4.3.0
+networkx==2.1
 notebook==5.0.0
 numpy==1.14.5
 outlier-utils==0.0.3
@@ -40,15 +43,18 @@ Pygments==2.2.0
 pyparsing==2.2.0
 python-dateutil==2.6.1
 pytz==2017.2
+PyWavelets==0.5.2
 pyzmq==16.0.2
 qtconsole==4.3.1
 requests==2.18.4
+scikit-image==0.14.0
 scikit-learn==0.19.1
 scipy==1.1.0
 simplegeneric==0.8.1
 six==1.10.0
 terminado==0.6
 testpath==0.3.1
+toolz==0.9.0
 tornado==4.5.1
 traitlets==4.3.2
 urllib3==1.22
