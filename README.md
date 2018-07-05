@@ -10,7 +10,7 @@
 #### データ加工(Data Wrangling)・可視化
 
 - [JupyterNotebook / numpy / pandas / matplotlib 入門](./notebooks/getting-started.ipynb)
-- [WIP: Pandasによるデータ加工](./notebooks/pandas-data-wrangling.ipynb)
+- [Pandasによるデータ加工(WIP)](./notebooks/pandas-data-wrangling.ipynb)
 - 異常値・外れ値・欠損値
 - 次元削減(PCA, LDA)
 
@@ -21,9 +21,9 @@
 #### 統計(Statistics)と機械学習(Machine Learning)
 
 - 機械学習を勉強していく前に
-- [WIP: 回帰分析](./notebooks/regression-analysis.ipynb)
+- [回帰分析(WIP)](./notebooks/regression-analysis.ipynb)
 - [決定木](./notebooks/decision-tree.ipynb)
-- [WIP: クラスタリング](./notebooks/clustering.ipynb)
+- [クラスタリング(WIP)](./notebooks/clustering.ipynb)
     - GMMについても書く
 - [パターン認識(SVM)](./notebooks/support-vector-machine.ipynb)
 - [パラメータ推定](./notebooks/parameter-estimation.ipynb)
